@@ -1,0 +1,2596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RED Cafe!</title>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="p-3 sticky-top">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h1>
+            <i class="fa fa-utensils fa-2x"></i>
+            <!-- Adjusted size for better visibility -->
+            RED Cafe!
+            <!-- Adjusted text for better visibility -->
+          </h1>
+        </div>
+
+        <div
+          class="col col-12 col-md-6 mt-3 d-flex justify-content-end justify-content-md-end"
+        >
+          <nav>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a class="text-white text-decoration-none" href="home.html">
+                  <i class="fas fa-home"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-white text-decoration-none" href="Tab.html">
+                  <i class="fas fa-utensils"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-white text-decoration-none" href="cart.html">
+                  <i class="fas fa-shopping-cart"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-white text-decoration-none" href="#">
+                  <i class="fas fa-calendar-alt"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-white text-decoration-none" href="#">
+                  <i class="fas fa-info-circle"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="text-white text-decoration-none" href="#">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-xxl py-5">
+      <div class="container mt-4">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h5
+            class="section-title ff-secondary text-center text-primary fw-normal"
+          >
+            Food Menu
+          </h5>
+          <h1 class="mb-5">Most Popular Items</h1>
+        </div>
+        <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+          <ul
+            class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5"
+          >
+            <li class="nav-item">
+              <a
+                class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active"
+                data-bs-toggle="pill"
+                href="#tab-1"
+              >
+                <i class="fa bx bxs-bowl-rice fa-2x text-primary"></i>
+                <div class="ps-3">
+                  <small class="text-body">Golden Grains</small>
+                  <h6 class="mt-n1 mb-0">Rice Dishes</h6>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="d-flex align-items-center text-start mx-3 pb-3"
+                data-bs-toggle="pill"
+                href="#tab-2"
+              >
+                <i class="fa fa-solid fa-drumstick-bite fa-2x text-primary"></i>
+                <div class="ps-3">
+                  <small class="text-body">Sizzle & Smoke</small>
+                  <h6 class="mt-n1 mb-0">BBQ & Grilled</h6>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="d-flex align-items-center text-start mx-3 me-0 pb-3"
+                data-bs-toggle="pill"
+                href="#tab-3"
+              >
+                <i class="fa bx bxs-drink fa-2x text-primary"></i>
+                <div class="ps-3">
+                  <small class="text-body">Sip & Savor</small>
+                  <h6 class="mt-n1 mb-0">Drinks & Beverages</h6>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="d-flex align-items-center text-start mx-3 me-0 pb-3"
+                data-bs-toggle="pill"
+                href="#tab-4"
+              >
+                <i class="fa bx bxs-leaf fa-2x text-primary"></i>
+                <div class="ps-3">
+                  <small class="text-body">FGarden Fresh</small>
+                  <h6 class="mt-n1 mb-0">Salads & Greens</h6>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="d-flex align-items-center text-start mx-3 me-0 pb-3"
+                data-bs-toggle="pill"
+                href="#tab-5"
+              >
+                <i class="fa bx bx-bowl-hot fa-2x text-primary"></i>
+                <div class="ps-3">
+                  <small class="text-body">Warm & Comforting</small>
+                  <h6 class="mt-n1 mb-0">Soups & Broths</h6>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="d-flex align-items-center text-start mx-3 me-0 pb-3"
+                data-bs-toggle="pill"
+                href="#tab-6"
+              >
+                <i class="fa fa-solid fa-fish fa-2x text-primary"></i>
+                <div class="ps-3">
+                  <small class="text-body">Ocean's Catch</small>
+                  <h6 class="mt-n1 mb-0">Seafoods & Fish</h6>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="d-flex align-items-center text-start mx-3 me-0 pb-3"
+                data-bs-toggle="pill"
+                href="#tab-7"
+              >
+                <i class="fa bx bx-bowl-hot fa-2x text-primary"></i>
+                <div class="ps-3">
+                  <small class="text-body">Twist & Tangle</small>
+                  <h6 class="mt-n1 mb-0">Pasta & Noodles</h6>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="d-flex align-items-center text-start mx-3 me-0 pb-3"
+                data-bs-toggle="pill"
+                href="#tab-8"
+              >
+                <i class="fa fas fa-hamburger fa-2x text-primary"></i>
+                <div class="ps-3">
+                  <small class="text-body">Stack & Bite</small>
+                  <h6 class="mt-n1 mb-0">Burgers & Sandwich</h6>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="d-flex align-items-center text-start mx-3 me-0 pb-3"
+                data-bs-toggle="pill"
+                href="#tab-9"
+              >
+                <i class="fa fa-solid fa-pizza-slice fa-2x text-primary"></i>
+                <div class="ps-3">
+                  <small class="text-body">Crisp & Cheesy</small>
+                  <h6 class="mt-n1 mb-0">Pizza & Flatbreads</h6>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="d-flex align-items-center text-start mx-3 me-0 pb-3"
+                data-bs-toggle="pill"
+                href="#tab-10"
+              >
+                <i class="fa fa-solid fa-stroopwafel fa-2x text-primary"></i>
+                <div class="ps-3">
+                  <small class="text-body">Sweet Indulgence</small>
+                  <h6 class="mt-n1 mb-0">Dessert & Sweets</h6>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="tab-1" class="tab-pane fade show p-0 active">
+              <!--Food Items-->
+              <div class="row">
+                <!--Food Item 1-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3 rotating-image"
+                      src="/Images/Biryani Sri Lanka.png"
+                      alt="Biryani (Sri Lanka)"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Biryani (Sri Lanka)</h5>
+                    <span class="text-white mb-3">1299/=</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 2-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Paella Spain.png"
+                      alt="Paella (Spain)"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Paella (Spain)</h5>
+                    <span class="text-white mb-3">899/=</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 3-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Risotto (Italy)"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Risotto (Italy)</h5>
+                    <span class="text-white mb-3">999/=</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 4-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Briyani (India)"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Biryani (India)</h5>
+                    <span class="text-white mb-3">1299/=</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 5-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Fried Rice (China)"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Fried Rice (China)</h5>
+                    <span class="text-white mb-3">799/=</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 6-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Jollof (West Africa)"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Jollof (West Africa)</h5>
+                    <span class="text-white mb-3">999/=</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 7-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Dolma (Middle East)"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Dolma (Middle East)</h5>
+                    <span class="text-white mb-3">1150/=</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 8-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Nasi Goreng (Indonesia)"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Nasi Goreng (Indonesia)</h5>
+                    <span class="text-white mb-3">1200/=</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 9-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Congee (China)"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Congee (China)</h5>
+                    <span class="text-white mb-3">1380/=</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 10-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Khao Pad (Thailand)"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Khao Pad (Thailand)</h5>
+                    <span class="text-white mb-3">600/=</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 11-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Jeera Rice (India)"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Jeera Rice (India)</h5>
+                    <span class="text-white mb-3">1400/=</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 12-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Sambar Rice (India)"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Sambar Rice (India)</h5>
+                    <span class="text-white mb-3">300/=</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!-- Additional food items will automatically start a new row -->
+              </div>
+            </div>
+
+            <div id="tab-2" class="tab-pane fade show p-0">
+              <!--Food Items-->
+              <div class="row">
+                <!--Food Item 1-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 2-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 3-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 4-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 5-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 6-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 7-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 8-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 9-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 10-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 11-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 12-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!-- Additional food items will automatically start a new row -->
+              </div>
+            </div>
+
+            <div id="tab-3" class="tab-pane fade show p-0">
+              <!--Food Items-->
+              <div class="row">
+                <!--Food Item 1-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 2-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 3-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 4-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 5-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 6-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 7-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 8-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 9-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 10-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 11-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 12-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+
+                <!-- Repeat similar blocks for other food items -->
+              </div>
+            </div>
+
+            <div id="tab-4" class="tab-pane fade show p-0">
+              <!--Food Items-->
+              <div class="row">
+                <!--Food Item 1-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 2-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 3-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 4-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 5-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 6-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 7-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 8-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 9-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 10-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 11-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 12-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+
+                <!-- Repeat similar blocks for other food items -->
+              </div>
+            </div>
+
+            <div id="tab-5" class="tab-pane fade show p-0">
+              <!--Food Items-->
+              <div class="row">
+                <!--Food Item 1-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 2-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 3-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 4-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 5-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 6-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 7-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 8-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 9-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 10-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 11-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 12-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+
+                <!-- Repeat similar blocks for other food items -->
+              </div>
+            </div>
+
+            <div id="tab-6" class="tab-pane fade show p-0">
+              <!--Food Items-->
+              <div class="row">
+                <!--Food Item 1-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 2-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 3-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 4-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 5-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 6-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 7-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 8-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 9-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 10-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 11-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 12-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+
+                <!-- Repeat similar blocks for other food items -->
+              </div>
+            </div>
+
+            <div id="tab-7" class="tab-pane fade show p-0">
+              <!--Food Items-->
+              <div class="row">
+                <!--Food Item 1-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 2-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 3-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 4-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 5-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 6-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 7-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 8-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 9-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 10-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 11-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 12-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+
+                <!-- Repeat similar blocks for other food items -->
+              </div>
+            </div>
+
+            <div id="tab-8" class="tab-pane fade show p-0">
+              <!--Food Items-->
+              <div class="row">
+                <!--Food Item 1-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 2-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 3-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 4-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 5-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 6-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 7-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 8-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 9-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 10-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 11-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 12-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+
+                <!-- Repeat similar blocks for other food items -->
+              </div>
+            </div>
+
+            <div id="tab-9" class="tab-pane fade show p-0">
+              <!--Food Items-->
+              <div class="row">
+                <!--Food Item 1-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 2-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 3-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 4-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 5-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 6-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 7-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 8-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 9-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 10-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 11-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 12-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+
+                <!-- Repeat similar blocks for other food items -->
+              </div>
+            </div>
+
+            <div id="tab-10" class="tab-pane fade show p-0">
+              <!--Food Items-->
+              <div class="row">
+                <!--Food Item 1-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 2-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 3-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 4-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 5-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 6-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 7-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 8-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Smoothies.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 9-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 10-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 11-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+                <!--Food Item 12-->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 my-2">
+                  <div
+                    class="d-flex flex-column align-items-center text-center"
+                  >
+                    <img
+                      class="img-fluid rounded mb-3"
+                      src="/Images/Choco-Milk.png"
+                      alt="Chicken Burger"
+                      style="width: 80px"
+                    />
+                    <h5 class="mb-2">Chicken Burger</h5>
+                    <span class="text-muted mb-2"
+                      >Ipsum ipsum clita erat amet dolor justo diam</span
+                    >
+                    <span class="text-primary mb-3">$115</span>
+                    <button class="btn btn-primary">Add To Cart</button>
+                  </div>
+                </div>
+
+                <!-- Repeat similar blocks for other food items -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="back-to-top-container">
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top">
+          <i class="bi bi-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Back to Top -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
